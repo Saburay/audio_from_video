@@ -1,7 +1,5 @@
-from colorama import Fore
-from colorama import init
-from all_functions import  *
-init()
+from all_func import *
+
 
 
 def main():
@@ -38,3 +36,5 @@ def main():
         print(Fore.RED + '\n[-] Неопознанный выбор. Повторите снова')
         main()
 
+if __name__ == '__main__':
+    main()

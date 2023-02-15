@@ -1,8 +1,15 @@
-import moviepy.editor
 import os.path
 import time
 from numpy import arange
+import main
+
+from moviepy.editor import *
+from colorama import init
 from colorama import Fore
+
+
+
+init()
 
 def merge_video_clip(path_directory, res_name):
     if os.path.exists(path_directory):
